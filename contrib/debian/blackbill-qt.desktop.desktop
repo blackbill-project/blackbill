@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Blackbill
+Comment=Blackbill P2P Cryptocurrency
+Exec=blackbill-qt %u
+Terminal=false
+Type=Application
+Icon=blackbill128
+MimeType=x-scheme-handler/blackbill;
+Categories=Office;Finance;
+Name[en_US]=blackbill-qt.desktop

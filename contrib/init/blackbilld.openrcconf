@@ -1,0 +1,26 @@
+# /etc/conf.d/blackbilld: config file for /etc/init.d/blackbilld
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/blackbill/blackbill.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/blackbilld"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/blackbilld.pid"
+
+# Where to write blackbilld data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/blackbilld"
+
+# User and group to own blackbilld process
+#BITCOIND_USER="blackbill"
+#BITCOIND_GROUP="blackbill"
+
+# Path to blackbilld executable
+#BITCOIND_BIN="/usr/bin/blackbilld"
+
+# Nice value to run blackbilld under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

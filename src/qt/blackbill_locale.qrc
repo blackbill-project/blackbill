@@ -1,0 +1,29 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/blackbill_bg.qm</file>
+        <file alias="ca">locale/blackbill_ca.qm</file>
+        <file alias="cs">locale/blackbill_cs.qm</file>
+        <file alias="da">locale/blackbill_da.qm</file>
+        <file alias="de">locale/blackbill_de.qm</file>
+        <file alias="en">locale/blackbill_en.qm</file>
+        <file alias="en_US">locale/blackbill_en_US.qm</file>
+        <file alias="es">locale/blackbill_es.qm</file>
+        <file alias="fi">locale/blackbill_fi.qm</file>
+        <file alias="fr_FR">locale/blackbill_fr_FR.qm</file>
+        <file alias="it">locale/blackbill_it.qm</file>
+        <file alias="ja">locale/blackbill_ja.qm</file>
+        <file alias="ko_KR">locale/blackbill_ko_KR.qm</file>
+        <file alias="nl">locale/blackbill_nl.qm</file>
+        <file alias="pl">locale/blackbill_pl.qm</file>
+        <file alias="pt">locale/blackbill_pt.qm</file>
+        <file alias="pt_BR">locale/blackbill_pt_BR.qm</file>
+        <file alias="ro_RO">locale/blackbill_ro_RO.qm</file>
+        <file alias="ru">locale/blackbill_ru.qm</file>
+        <file alias="sk">locale/blackbill_sk.qm</file>
+        <file alias="sv">locale/blackbill_sv.qm</file>
+        <file alias="tr">locale/blackbill_tr.qm</file>
+        <file alias="uk">locale/blackbill_uk.qm</file>
+        <file alias="zh_CN">locale/blackbill_zh_CN.qm</file>
+        <file alias="zh_TW">locale/blackbill_zh_TW.qm</file>
+    </qresource>
+</RCC>
