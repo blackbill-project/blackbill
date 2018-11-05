@@ -3,8 +3,8 @@ Blackbill Core 1.0.0.0
 
 ## Links:
 
-- Website: https://blackbill.org
-- Explorer: https://explorer.blackbill.org/
+- Website: https://blackbill.org/
+- Explorer: https://blocks.blackbill.info/
 - Github: https://github.com/blackbill-project/
 
 
