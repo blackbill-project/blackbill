@@ -1660,10 +1660,29 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
     int64_t ret = 0;
 
     // No rewards till masternode activation.
-    if (nHeight < Params().LAST_POW_BLOCK())
+    /*if (nHeight < Params().LAST_POW_BLOCK())
         return 0;
     else {
 		ret = blockValue * 0.7 * COIN; // Normal block
+    }*/
+
+    if (nHeight < 40) {
+        ret = 0; // Premine
+    }
+    else if (nHeight >= 40 && nHeight < 30040) {
+        ret = 7 * COIN; // Normal block
+    }
+    else if (nHeight >= 30040 && nHeight < 50040) {
+        ret = 17.5 * COIN; // Normal block
+    }
+    else if (nHeight >= 50040 && nHeight < 100040) {
+        ret = 72.8 * COIN; // Normal block
+    }
+    else if (nHeight >= 100040 && nHeight < 500040) {
+        ret = 7 * COIN; // Normal block
+    }
+    else {
+      ret = 0 * COIN; // Normal block
     }
 	
 	return ret;  
