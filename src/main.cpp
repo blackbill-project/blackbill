@@ -1673,7 +1673,7 @@ int64_t GetMasternodePayment(int nHeight, int64_t blockValue, int nMasternodeCou
         ret = 17.5 * COIN; // Normal block
     }
     else if (nHeight >= 35040 && nHeight < 1364901) {
-        ret = 5.04 COIN; // Normal block
+        ret = 5.04 * COIN; // Normal block
     }
     else {
       ret = 0 * COIN; // Normal block
