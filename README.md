@@ -1,7 +1,9 @@
 Blackbill Core 1.0.0.0
 =================================================
 
-Blackbill is a Quark (proof-of-stake algorithm inspired by PIVX/DASH) based cryptocurrency that is propelled by nearby traders and the general population of the African landmass. The Blackbill is here to perceive, engage, and make a shrewd economy for the world beginning from African nations. The BIL unites nearby and worldwide vendors, business and the world together to make a solid economy for everybody. 
+Blackbill is a Quark (proof-of-stake algorithm inspired by PIVX/DASH) based cryptocurrency, the fisrt stable and tradable cryptocurrency to be made in Africa. The Blackbill is here to perceive, engage, and make a shrewd economy for the world beginning from African nations. The BIL unites nearby and worldwide vendors, business and the world together to make a solid economy for everybody. 
+
+Upon reaching 10 million coins in distribution, 1 (BIL) Blackbill will be pegged to a centigram of fine Gold. Our Gold (which is in the form of bullions) will be stored through Imargin pty ltd in a private vault in South Africa. As of 2020 May, Imargin pty ltd owns half (50%) of a new South African Gold mining company, Lega Mining Pty. 
 
 
 ### Reward Distribution
