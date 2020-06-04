@@ -135,7 +135,7 @@ public:
         vAlertPubKey = ParseHex("04b8735b835bfa5e3a159db34ca502e3cb028059089ee084852ddf841b322927dc25cb683c3c68d7eabaeafaeb5ead7df122739f7f99ba372c989d4574a2b1ea7f");
         nDefaultPort = 16064;
         bnProofOfWorkLimit = ~uint256(0) >> 20;
-        nSubsidyHalvingInterval = 5000000;
+        nSubsidyHalvingInterval = 10000000;
         nMaxReorganizationDepth = 100;
         nEnforceBlockUpgradeMajority = 750;
         nRejectBlockOutdatedMajority = 950;
@@ -145,7 +145,7 @@ public:
         nTargetSpacing = 1 * 60;  // Blackbill: 1 minute
         nMaturity = 100;
         nMasternodeCountDrift = 1;
-        nMaxMoneyOut = 50000000 * COIN;
+        nMaxMoneyOut = 1000000000 * COIN;
 
         /** Height or Time Based Activations **/
         nLastPOWBlock = 500;
@@ -160,6 +160,7 @@ public:
         // DNS Seeding
         vSeeds.push_back(CDNSSeedData("blackbill.org", "93.115.26.132"));
         vSeeds.push_back(CDNSSeedData("blackbill.org", "132.148.156.24"));
+        vSeeds.push_back(CDNSSeedData("blackbill.org", "46.166.165.100"));
 
         
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1, 25); // Blackbill addresses start with 'B'
