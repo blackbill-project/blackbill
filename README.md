@@ -10,8 +10,8 @@ Blackbill is a Quark (proof-of-stake algorithm inspired by PIVX/DASH) based cryp
 |------------------|------------------|------------------|
 | 500-30039        | 70% (7 BIL)      | 30% (3 BIL)       | 
 | 30040-35039      | 70% (17.5 BIL)   | 30% (7.5 BIL)      |
-| 35040-1364901    | 70% (5.04 BIL)    | 30% (2.16 BIL)   | 
-| 500040-Infinite  |     (0 BIL)      |     (0 BIL)       | 
+| 35040-1364900    | 70% (5.04 BIL)    | 30% (2.16 BIL)   | 
+| 1364901-Infinite  |     (0 BIL)      |     (0 BIL)       | 
 
 
 ## Links:
